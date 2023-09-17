@@ -10,10 +10,10 @@ class Main {
 
   public static String TimeConvert(int num) {        // 1. change int variable to String variable since we want to use Integer.toString method .
    // code goes here  
-    String  Hour = Integer.toString(num / 60);       //2. use Integer.toString method to convert int to str for converted Hour integer.
+    String  Hour = Integer.toString(num / 60);       // 2. use Integer.toString method to convert int to str for converted Hour integer.
     String  Minute = Integer.toString(num % 60);     // 3. same pocedure as step 2 for converted Minute integer.
  
-     return Hour + ":" + Minute;                     // return Hour and Minute with ":" colon sign.
+     return Hour + ":" + Minute;                     // 4. return Hour and Minute with ":" colon sign.
   } 
 
   public static void main (String[] args) {  
