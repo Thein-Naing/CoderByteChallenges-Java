@@ -12,7 +12,7 @@ import java.io.*;
 class Main {
 public static String FizzBuzz(int num) {
 
-    String result = "";                    // 1. define a String called result initial state of result shall be "empty string"
+    String result = "";                    // 1. define a String called result, initial state of result shall be "empty string"
     for(int i = 1; i <= num; i++) {        // 2. loop through i where i started from 1 and ended at num.
       if(i % (3 * 5 ) == 0)                // 3. if remainder of i divided by both 3 and 5 are equal to "zero", then return "FizzBuzz".(update result).
       result += "FizzBuzz";
