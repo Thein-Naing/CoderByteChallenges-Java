@@ -6,31 +6,33 @@ For example: if arr is [8, 2, 1, 4, 10, 5, -1, -1] then there are actually three
 Your program should return the string true if 3 distinct elements sum to the first element, otherwise your program should return the string false. 
 The input array will always contain at least 4 elements. */
 
+
 import java.util.*; 
 import java.io.*;
 
-class Main {
-
-  public static int ThreeSum(int[] arr) {
-    // code goes here  
-    // return arr[0];
-String result = "";
-
-    for let(i =1; i < arr.length; i++) {
-      for ( j= i +1; j < arr.length; j++) {
-        for ( k = j+1;  k < arr.length; k++) {
-          if (arr[i] + arr[j] + arr[k] === arr[0]) {
-        return true;
+class Main {  
+  public static String ThreeSum(int[] arr) { 
+  
+    int sum = arr[0];
+    
+    for ( int i = 1; i < arr.length; i++){
+        for ( int j = i+1; j < arr.length; j++){
+            for ( int k = j+1; k < arr.length; k++){
+                if ( arr[k]+arr[j]+arr[i] == sum) {
+                    return "true";
+                }
+            }
         }
-      }
-    } 
-  }
-  return false;
-
+    }
+    
+           return "false";
+    
+  } 
+  
   public static void main (String[] args) {  
     // keep this function call here     
     Scanner s = new Scanner(System.in);
     System.out.print(ThreeSum(s.nextLine())); 
-  }
-
+  }   
+  
 }
