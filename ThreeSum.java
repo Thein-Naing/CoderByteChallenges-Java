@@ -17,7 +17,7 @@ class Main {
             for ( int k = j + 1; k < arr.length; k++) {      // 2. continue looping through each other numbers except first element.
                 if ( arr[k] + arr[j] + arr[i] == arr[0]) {   // 3. check if sum of these three numbers equal to first element.
                                                           
-                    return "true";                           //4. then return "true" String, not boolean.
+                    return "true";                           // 4. then return "true" String, not boolean.
                 }     
             }
         }
