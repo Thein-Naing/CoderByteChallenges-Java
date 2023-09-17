@@ -20,7 +20,7 @@ class Main {
             for (int j = i + 1; j < arr.length; j++) {        // 3. continue looping through each other numbers except first element. 
                 
                 if (arr[i] + arr[j] == arr[0]) {              // 4. check if sum of these two numbers equal to first element.first element of given array should be
-                    result += arr[i] + "," + arr[j] + " ";    //    arr[0] and if it is true, then add this two elements into stack  with + "," for white spacing. 
+                    result += arr[i] + "," + arr[j] + " ";    //    arr[0] and if it is true, then add this two elements into result(stack) with + "," for white spacing. 
                                                                     
                 }
             }
