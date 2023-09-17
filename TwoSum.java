@@ -19,8 +19,8 @@ class Main {
                                                                     first, loop through each number in array except first element.*/
             for (int j = i + 1; j < arr.length; j++) {        // 3. continue looping through each other numbers except first element. 
                 
-                if (arr[i] + arr[j] == arr[0]) {              /* 4. check if sum of these two numbers equal to first element.first element of given array should be
-                    result += arr[i] + "," + arr[j] + " ";          arr[0] and if it is true, then add this two elements into stack  with + "," for white spacing. */
+                if (arr[i] + arr[j] == arr[0]) {              // 4. check if sum of these two numbers equal to first element.first element of given array should be
+                    result += arr[i] + "," + arr[j] + " ";    //    arr[0] and if it is true, then add this two elements into stack  with + "," for white spacing. 
                                                                     
                 }
             }
