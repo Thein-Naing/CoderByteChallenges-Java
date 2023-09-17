@@ -18,7 +18,7 @@ class Main {
                                                    first, loop through each number in array except first element.*/
         for ( int j = i + 1; j < arr.length; j++){
             for ( int k = j + 1; k < arr.length; k++) { // 3. continue looping through each other numbers except first element.
-                if ( arr[k] + arr[j] + arr[i] == sum) {   // 4. check if sum of these three numbers equal to first element.
+                if ( arr[k] + arr[j] + arr[i] == arr[0]) {   // 4. check if sum of these three numbers equal to first element.
                                                           
                     return "true";                    //5. then return "true" String, not boolean.
                 }     
