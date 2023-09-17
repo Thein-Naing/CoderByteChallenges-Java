@@ -11,10 +11,10 @@ import java.io.*;
 
 class Main {  
   public static String ThreeSum(int[] arr) { 
-          for ( int i = 1; i < arr.length; i++) {  /* 1. This will be nested loop because we have to check two numbers and compare their sum to firsr element.
-                                                   firstly, loop through each number in array except first element.*/
+          for ( int i = 1; i < arr.length; i++) {            /* 1. This will be nested loop because we have to check two numbers and compare their sum to firsr element.
+                                                                 firstly, loop through each number in array except first element.*/
         for ( int j = i + 1; j < arr.length; j++){
-            for ( int k = j + 1; k < arr.length; k++) { // 2. continue looping through each other numbers except first element.
+            for ( int k = j + 1; k < arr.length; k++) {      // 2. continue looping through each other numbers except first element.
                 if ( arr[k] + arr[j] + arr[i] == arr[0]) {   // 3. check if sum of these three numbers equal to first element.
                                                           
                     return "true";                    //4. then return "true" String, not boolean.
