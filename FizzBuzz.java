@@ -14,20 +14,20 @@ public static String FizzBuzz(int num) {
 
     String result = "";                    // 1. define a String called result initial state of result shall be "empty string"
     for(int i = 1; i <= num; i++) {        // 2. loop through i where i started from 1 and ended at num.
-      if(i % (3 * 5 ) == 0)                // 3. if remainder of i divided by both 3 and 5 are equal to "zero", then return "FizzBuzz".
+      if(i % (3 * 5 ) == 0)                // 3. if remainder of i divided by both 3 and 5 are equal to "zero", then return "FizzBuzz".(update result).
       result += "FizzBuzz";
       
-      else if(i % 3 == 0)                  // 4. if remainder of i divided by 3 is equal to "zero", then return "Fizz".
+      else if(i % 3 == 0)                  // 4. if remainder of i divided by 3 is equal to "zero", then return "Fizz".(update result).
       result += "Fizz";
       
-      else if(i % 5 == 0)                  // 5. if remainder of i divided by 5 is equal to "zero", then return "Buzz".
+      else if(i % 5 == 0)                  // 5. if remainder of i divided by 5 is equal to "zero", then return "Buzz".(update result).
        result += "Buzz";
       
       else 
-       result += i + "";                   // 6. if none of the above is matched, then  return i with "".
+       result += i + "";                   // 6. if none of the above is matched, then return i + "".(update result).
       
     }
-    return result;                         // 7. then return result.
+    return result;                         // 7. then return final result.
   }
      
   public static void main (String[] args) {  
