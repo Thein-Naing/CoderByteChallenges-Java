@@ -15,8 +15,8 @@ class Main {
     public static String TwoSum(int[] arr) {
         String result = "";                                   /*1. create an empty string called result to store results: pair of numbers which are sum up to 
                                                                    first element in given array. initial state of result shall be "empty string". */
-        for (int i = 1; i < arr.length; i++) {                /* 2. This will be nested loop because we have to check two numbers and compare their sum to firsr element.
-                                                                    first, loop through each number in array except first element.*/
+        for (int i = 1; i < arr.length; i++) {                /* 2. This will be nested loop because we have to check two numbers and compare their sum to first element.
+                                                                    firstly loop through each number in array except first element.*/
             for (int j = i + 1; j < arr.length; j++) {        // 3. continue looping through each other numbers except first element. 
                 
                 if (arr[i] + arr[j] == arr[0]) {              // 4. check if sum of these two numbers equal to first element.first element of given array should be
