@@ -22,7 +22,7 @@ class Main {
 public static boolean Palindrome(String str) {           // 1. use boolean 
 
 
-        String str1 = str.replaceAll("\s+", "");         //2. create and use regex ("\s+", "") === remove all white place with nothing.
+        String str1 = str.replaceAll("\s+", "");         //2. create and use regex ("\s+", "") === remove all white space by replace all with nothing.
         StringBuilder str2 = new StringBuilder(str1);    //3. use StringBuilder method to create str2.
 
         if( str1.equals(str2.reverse().toString())) {    // 4. if str1 == rever str2, then return true.
