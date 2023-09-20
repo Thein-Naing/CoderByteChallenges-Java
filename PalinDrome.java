@@ -10,7 +10,7 @@ Input: "eye"
 Output: true
 
 Tags
-string manipulation ecursion  */
+string manipulation recursion  */
 
 import java.util.*; 
 import java.io.*;
