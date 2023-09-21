@@ -10,6 +10,10 @@
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/9b1e9a3d-9012-4f8f-a481-e88c1d1b3198)
 `[5] VowelCount.java`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/d88dae1b-6013-4dd8-94db-a39048611cd1)
+`[6]TimeConvert.java`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/4d027bb4-d40d-4e8d-8596-fd664d762c2c)
+
+
 
 
 
