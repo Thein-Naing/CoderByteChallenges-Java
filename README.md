@@ -16,6 +16,9 @@
 
 `[7] TwoSum.java`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/8a65afab-a70f-4fc6-bc3e-8debf3799f8a)
+`[8]ThreeSum.java`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/e2b6a6ef-b28e-4a3f-b4ad-009adfed39c5)
+
 
 
 
