@@ -18,6 +18,10 @@
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/8a65afab-a70f-4fc6-bc3e-8debf3799f8a)
 `[8]ThreeSum.java`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/c8e7341f-22e3-4054-a87c-b16bf38dafb1)
+`[9]ArithGeo.java`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/09c44b83-6c61-4af9-aa43-7d52d8cb777c)
+
+
 
 
 
