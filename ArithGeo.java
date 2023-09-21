@@ -29,9 +29,9 @@ class Main {
   
         String str = "-1";
         if ((arr[1] - arr[0]) == (arr[arr.length - 1] - arr[arr.length - 2])) {
-            return str = "Arithmetic";
+            str = "Arithmetic";
         } else if ((arr[1] / arr[0]) == (arr[arr.length - 1] / arr[arr.length - 2])) {
-            return str = "Geometric";
+            str = "Geometric";
         }
          return str;
   }
