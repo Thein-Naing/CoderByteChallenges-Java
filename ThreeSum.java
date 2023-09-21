@@ -46,24 +46,25 @@ import java.util.*;
 import java.io.*;
 
 class Main {  
-public static boolean ThreeSum(int[] arr) {
-            boolean result = false;                             // 1. initial state of result shall be boolean: false.
+  public static boolean ThreeSum(int[] arr) {
+            int sum = 0;                                       // 1A.initial state of sum shall be "zero" and initial state of result shall be false'
+            boolean result = false;
 
-            for ( int i = 1; i < arr.length; i++) {             /* 1A. this will be nested loop because we have to check three numbers and compare their sum to firsr element.
-                                                                      firstly, loop through each number in array except first element.*/
+            for ( int i = 1; i < arr.length; i++) {             /* 1B. This will be nested loop because we have to check three numbers and compare their sum to firsr element.
+                                                                       firstly, loop through each number in array except first element.*/
             for (int j = i + 1; j < arr.length; j++) {
                 for (int k = j + 1; k < arr.length; k++) {      // 2. continue looping through each other numbers except first element.
-                    if (arr[k] + arr[j] + arr[i] == arr[0]) {   // 3. check if sum of these three numbers equal to first element.
-                        result = true; }  else {                // 3A. if equal then  update result: return boolean: true;
-                        result = false;                         // 4. if not equal then  update result:return boolean: false;
+                    sum += arr[k] + arr[j] + arr[i];            // 3. update sum .
+                if ( sum == arr[0]) {                           // 3A. check if sum of these three numbers equal to first element.
+                        result = true;                          // 3B. if equal then  update result: return boolean: true;
                     }
                 }
             }
         }
-        return result;                                           // 5. otherwise return final result.
+        return result;                                           // 5.then just return final result.
     }
-
-  public static void main (String[] args) {  
+  
+      public static void main (String[] args) {  
     // keep this function call here     
     Scanner s = new Scanner(System.in);
     System.out.print(ThreeSum(s.nextLine())); 
