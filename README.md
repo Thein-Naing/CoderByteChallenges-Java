@@ -12,7 +12,8 @@
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/45a093d8-fb95-40e9-bd6a-ae642c6169ea)
 
 `[6]TimeConvert.java`
-![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/4d027bb4-d40d-4e8d-8596-fd664d762c2c)
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/c8bc6902-371d-41be-ab9e-2bcbb0a06976)
+
 `[7] TwoSum.java`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/8a65afab-a70f-4fc6-bc3e-8debf3799f8a)
 
