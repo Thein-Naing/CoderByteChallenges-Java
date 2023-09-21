@@ -6,6 +6,8 @@ For example: if arr is [8, 2, 1, 4, 10, 5, -1, -1] then there are actually three
 Your program should return the string true if 3 distinct elements sum to the first element, otherwise your program should return the string false. 
 The input array will always contain at least 4 elements. */
 
+// Method A.
+
 import java.util.*; 
 import java.io.*;
 
@@ -38,7 +40,7 @@ class Main {
 
 
 
-// Alternative solution. I prefer this one may be more clear.
+// Method B. I prefer this one may be more clear.
 
 import java.util.*; 
 import java.io.*;
