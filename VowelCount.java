@@ -22,7 +22,7 @@ class Main {
     // 1 . use str.replaceAll method with regex and then findd the length.
     /* 2. [^ ] === used to specify a nonmatching list where we are trying to match 
                    any character except for the ones in the list. */
-    /* 3. meaning: Hey regex!, find the charactrers which are not match with a,e,i,o,u and replace with nothing.*/
+    /* 3. meaning: Hey regex!, find the characters which are not match with a,e,i,o,u and replace with nothing.*/
 
      return str.replaceAll("[^a,e,i,o,u]", "").length(); 
      
