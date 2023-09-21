@@ -34,3 +34,37 @@ class Main {
   }   
   
 }
+
+
+
+
+// Alternative solution. I prefer this one may be more clear.
+
+import java.util.*; 
+import java.io.*;
+
+class Main {  
+public static boolean ThreeSum(int[] arr) {
+            boolean result = false;                             // 1. initial state of result shall be boolean: false.
+
+            for ( int i = 1; i < arr.length; i++) {             /* 1A. this will be nested loop because we have to check three numbers and compare their sum to firsr element.
+                                                                      firstly, loop through each number in array except first element.*/
+            for (int j = i + 1; j < arr.length; j++) {
+                for (int k = j + 1; k < arr.length; k++) {      // 2. continue looping through each other numbers except first element.
+                    if (arr[k] + arr[j] + arr[i] == arr[0]) {   // 3. check if sum of these three numbers equal to first element.
+                        result = true; }  else {                // 3A. if equal then  update result: return boolean: true;
+                        result = false;                         // 4. if not equal then  update result:return boolean: false;
+                    }
+                }
+            }
+        }
+        return result;                                           // 5. otherwise return final result.
+    }
+
+  public static void main (String[] args) {  
+    // keep this function call here     
+    Scanner s = new Scanner(System.in);
+    System.out.print(ThreeSum(s.nextLine())); 
+  }   
+  
+}
