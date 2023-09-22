@@ -11,7 +11,7 @@ import java.io.*;
     /* 2. [^ ] === used to specify a nonmatching list where we are trying to match any character except for the ones in the list. 
           here only characters and numbers are in the list.[^a-z0-9\s] */
     /* 3. meaning: Hey regex!, find the characters which are not match with(characters a-z & numbers 0-9) and replace with nothing. 
-          then remove white space from sen using str.split method. */
+          then divides this string into an ordered list of words using str.split method. */
     /* 4. use Arrays.sort method to arrange words in asce order and return words at index 0.  */
 
 class Main {  
