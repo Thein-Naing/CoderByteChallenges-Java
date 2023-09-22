@@ -23,17 +23,19 @@ import java.io.*;
 
 class Main {
 
-  public static String ArithGeo(int[] arr) {  //1. change int to String.
+  public static String ArithGeo(int[] arr) {                                                 //1. change int to String.
 
     // code goes here  
   
-        String str = "-1";
-        if ((arr[1] - arr[0]) == (arr[arr.length - 1] - arr[arr.length - 2])) {
-            str = "Arithmetic";
+        String str = "-1";                                                        /*1A.  initial state of str shall be "-1" assuming the sequence doesn't follow either "Arithmetic" or "Geometric" pattern.
+        if ((arr[1] - arr[0]) == (arr[arr.length - 1] - arr[arr.length - 2])) {   /* 2.  for array like this [5,10,15], we can express  arr[1]-arr[0] == (arr[2]-arr[1]. 
+                                                                                         but for array like this [1,2,3,4,5,7,10] we have to use (arr[arr.length - 1] - arr[arr.length - 2]) 
+                                                                                         for last element of array instead of arr[1]-arr[0] == (arr[2]-arr[1] to avoid error in pattern. */
+            str = "Arithmetic";                                                               // 2. if the sequence follows an arithmetic pattern, update str = "Arithmetic" 
         } else if ((arr[1] / arr[0]) == (arr[arr.length - 1] / arr[arr.length - 2])) {
-            str = "Geometric";
+            str = "Geometric";                                                               // 3. if it follows a geometric pattern, update string = "Geometric"
         }
-         return str;
+         return str;                                                                         // 4. then just return str for ArithGeo function.
   }
 
     public static void main (String[] args) {  
