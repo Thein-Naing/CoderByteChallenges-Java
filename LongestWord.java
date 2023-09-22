@@ -12,7 +12,7 @@ import java.io.*;
           here only characters and numbers are in the list.[^a-z0-9\s] */
     /* 3. meaning: Hey regex!, find the characters which are not match with(characters a-z & numbers 0-9) and replace with nothing. 
           then divides this string into an ordered list of words using str.split method. */
-    /* 4. use Arrays.sort method to arrange words in asce order and return words at index 0.  */
+    /* 4. use Arrays.sort method to arrange words with longest length in DESC order and return words at index 0.  */
 
 class Main {  
   public static String LongestWord(String sen) {  
