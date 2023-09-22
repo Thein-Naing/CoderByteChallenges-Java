@@ -19,7 +19,7 @@ class Main {
 
     // code goes here  
     
-    // 1 . use str.replaceAll method with regex and then findd the length.
+    // 1 . use str.replaceAll method with regex and then find the length.
     /* 2. [^ ] === used to specify a nonmatching list where we are trying to match 
                    any character except for the ones in the list. */
     /* 3. meaning: Hey regex!, find the characters which are not match with a,e,i,o,u and replace with nothing.*/
