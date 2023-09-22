@@ -20,6 +20,9 @@
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/c8e7341f-22e3-4054-a87c-b16bf38dafb1)
 `[9]ArithGeo.java`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/da573878-7098-4b2a-be56-dca71e596b09)
+`[10] LongestWord.java`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/7aad2dd3-96f5-47bd-ab43-544ec0c60450)
+
 
 
 
