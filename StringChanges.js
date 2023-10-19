@@ -14,20 +14,3 @@ Tags
 string manipulation regular expression */
 
 
-function StringChanges(str) { 
-
-  // code goes here  
-  str = str.split("");
-  for (let i = 0; i < str.length; i++) {
-      if(str[i] === "M") {
-        str[i] = str[i-1]
-    } else if (str[i] === "N") {
-        str[i] = str[i+1] = "";       
-      }
-    }
-  
-     return str.join("");
-}
-   
-// keep this function call here 
-console.log(StringChanges(readline()));
