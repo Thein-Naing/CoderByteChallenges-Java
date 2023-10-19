@@ -23,6 +23,10 @@
 `[10] LongestWord.java`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/7aad2dd3-96f5-47bd-ab43-544ec0c60450)
 
+`[11]RemoveBrackets`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/094575c5-19f8-4832-bb58-bff4e02f405b)
+
+
 
 
 
