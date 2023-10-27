@@ -31,7 +31,8 @@
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/7aad2dd3-96f5-47bd-ab43-544ec0c60450)
 
 `[11]ABCheck`
-![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/f8094581-995c-4a77-b9bb-8c869eb4c9e0)
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/3a2d06ef-3d63-4f31-9cc5-e3da0cf1c6b8)
+
 
 
 
