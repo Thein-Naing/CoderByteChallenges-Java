@@ -8,9 +8,8 @@ Otherwise return the string false. */
   // 1. use str.matches method with regex (".*a.{3}?b.*") and (".*b.{3}?a.*").
   /* 2. Meaning: 
        (i) ".*a.{3}?b.*" means a is 3 places away from b and also ".*b.{3}?a.*" meeans b is 3 places away from a.
-       (ii) . DOT represent ANY ONE character and so .{3} = three characters.
-       (iii) ? means from  and 
-       (iv) *a means matches any string that contains zero or more occurrences of a  and *b means matches any string that contains zero or more occurrences of b.
+       (ii) . DOT represent ANY ONE character and so .{3} = three characters.     
+       (iii) *a means matches any string that contains zero or more occurrences of a  and *b means matches any string that contains zero or more occurrences of b.
   // 3. Return it by using Boolean.toString() method with ternary operator for true and false */ 
 
 
@@ -23,7 +22,7 @@ class Main {
   public static String ABCheck(String str) {
     
     // code goes here  
-   return Boolean.toString((str.matches(".*a.{3}?b.*")) || (str.matches(".*b.{3}?a.*")));
+ return Boolean.toString((str.matches(".*a.{3}b.*")) || (str.matches(".*b.{3}a.*")));
      
   }
 
