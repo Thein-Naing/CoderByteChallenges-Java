@@ -11,8 +11,9 @@ class Main {
   public static String FirstReverse(String str) {
     // code goes here  
 
-    /* 1. use StringBuilder() method, then reverse, then convert back to string using toString() method and return it. */
+    /* 1. use StringBuilder() method or StringBuffer() method, then reverse, then convert back to string using toString() method and return it. */
       return new StringBuilder(str).reverse().toString(); 
+      // return new StringBuffer(str).reverse().toString(); 
   }
 
   public static void main (String[] args) {  
