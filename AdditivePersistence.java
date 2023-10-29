@@ -18,10 +18,12 @@ class Main {
         for (int i = 0; i < num1.length(); i++) {
             sum += Integer.parseInt(Character.toString(num1.charAt(i)));                /* 5. Loop through each character(digits) of num1 and update sum by adding the digits from given num1 
                                                                                               until we reach a single digit for sum. 
-            }                                                                                                           */
+            }                                                                                 System.out.println(num1) //  18;      
+                                                                                                                            9;
+                                                                                                                            2 */
         num1 = String.valueOf(sum);                                                     // 6. Convert back string to number value.
 
-        count++;                                                                        // 7. Update count and return.
+        count++;                                                                        // 7. Update count(return the last returned digit)  and return.
         }
 
     return count;
