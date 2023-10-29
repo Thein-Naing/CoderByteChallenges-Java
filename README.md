@@ -33,6 +33,10 @@
 `[11]ABCheck`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/3a2d06ef-3d63-4f31-9cc5-e3da0cf1c6b8)
 
+`[12]AdditivePersistence`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/44d5f000-a7f3-4d55-9653-53f830e3e0f5)
+
+
 
 
 
