@@ -10,7 +10,11 @@ class Main {
 
   public static int WordCount(String str) {
     // code goes here  
- return str.split("\s").length;  /* 1. remove white space from  str using str.split method with regex: "\s" === whitespace character. */
+    
+  return str.split("\s").length;                   /* 1. remove white space from  str using str.split method with regex: "\s" === whitespace character. */
+   // return input.split("\\s+").length;           /* 2. OR use split("\\s+") which will split the string into string of array with separator as space or multiple spaces.
+                                                         "\s+" is a regular expression for one or more spaces. */
+    
   }
 
   public static void main (String[] args) {  
