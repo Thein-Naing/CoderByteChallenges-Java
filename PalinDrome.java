@@ -21,8 +21,12 @@ class Main {
 
 public static boolean Palindrome(String str) {           // 1. use boolean 
 
-
-        String str1 = str.replaceAll("\s+", "");         //2. create and use regex ("\s+", "") === remove all white space by replace all  white space with nothing.
+     // String.str.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();  
+        String str1 = str.replaceAll("\s+", "");                  /* 2. create and use regex ("\s+", "") === remove all white space by replace all  white space with nothing.
+                                                                    The Regexuse str.replaceAll("\s+", "").toLowerCase() OR   
+                                                                    [^a-zA-Z0-9] will delete (replace by "") any characters different from A to Z and 0 till 9.
+                                                                    After that, it will lowercase (.toLowerCase()) all remaining characters in the string, i.e. :
+                                                                    String s = "abc&AA_" will become: abcaa        */
         StringBuilder str2 = new StringBuilder(str1);    //3. use StringBuilder method to create str2 and reverse. then you need to convert back using toString() method.
 
         if( str1.equals(str2.reverse().toString())) {    // 4. if str1 == str2, then return true.
