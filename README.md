@@ -8,6 +8,8 @@
 
 `[3] PalinDrome.java`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/7f35cbb3-16db-4fb3-868e-7220c5f413b9)
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/49e495b2-6c5b-4f9f-9f2a-e0c4767c6f14)
+
 
 `[4] WordCount.java`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/9b1e9a3d-9012-4f8f-a481-e88c1d1b3198)
