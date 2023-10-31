@@ -13,6 +13,8 @@
 
 `[4] WordCount.java`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/9b1e9a3d-9012-4f8f-a481-e88c1d1b3198)
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/db76ec5f-5f7f-46ae-9ca0-4cd979f536d7)
+
 
 `[5] VowelCount.java`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/45a093d8-fb95-40e9-bd6a-ae642c6169ea)
