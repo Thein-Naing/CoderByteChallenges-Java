@@ -26,9 +26,14 @@ class Main {
                                               
         
    // code goes here       
-    return str.toLowerCase().replaceAll("[^a-z]", "").replaceAll("(.)(?=.*\\1)", "").length() == 26; 
+    // return str.toLowerCase().replaceAll("[^a-z]", "").replaceAll("(.)(?=.*\\1)", "").length() == 26;
+  // }
+    
+      long c = str.toLowerCase().chars().filter(ch -> ch >= 'a' && ch <= 'z').distinct().count();       // 3. OR Another alternative method Stream’s arr.filter() and arr.distinct() methods.
+      return c == 26;
   }
 
+  
   public static void main (String[] args) {  
     // keep this function call here     
     Scanner s = new Scanner(System.in);
