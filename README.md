@@ -42,6 +42,8 @@
 
 `[13]AlphabetSearching`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/b5d4dc30-70d5-4bbf-983b-aa4d514c1210)
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/9f64a3a2-fc3c-4180-8830-37f38c32bb66)
+
 
 
 
