@@ -29,8 +29,8 @@ class Main {
     // return str.toLowerCase().replaceAll("[^a-z]", "").replaceAll("(.)(?=.*\\1)", "").length() == 26;
   // }
     
-      long c = str.toLowerCase().chars().filter(ch -> ch >= 'a' && ch <= 'z').distinct().count();       // 3. OR Another alternative method Stream’s arr.filter() and arr.distinct() methods.
-      return c == 26;
+      return str.toLowerCase().chars().filter(ch -> ch >= 'a' && ch <= 'z').distinct().count() == 26;       // 3. OR Another alternative method Stream’s arr.filter() and arr.distinct() methods.
+     
   }
 
   
