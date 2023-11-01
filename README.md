@@ -40,6 +40,10 @@
 `[12]AdditivePersistence`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/034acdde-fc36-4530-9f54-0661392f8983)
 
+`[13]AlphabetSearching`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/b5d4dc30-70d5-4bbf-983b-aa4d514c1210)
+
+
 
 
 
