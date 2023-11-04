@@ -47,6 +47,10 @@
 `[14]ASCIIConversion`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/8a96a3b1-1ec6-4af8-a476-2c8f2dcec337)
 
+`[15]AlphabetSoup`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/0a440fef-dd53-49ee-8e8c-28a57f0f714b)
+
+
 
 
 
