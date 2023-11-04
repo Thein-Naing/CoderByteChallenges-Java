@@ -19,7 +19,7 @@ class Main {
   public static String ASCIIConversion(String str) {
     StringBuilder str1 = new StringBuilder();                      // 1. Use StingBuilder() method to create a mutable string: str1 to hold characters.
     for (char ch: str.toCharArray()) {                             // 2. Loop through each every character of given string to check its corresponding decimal character code.
-      if (ch != " ")                                               // 3. If character is found, add its corresponding decimal character code to str1.
+      if (ch !=  ' ')                                               // 3. If character is found, add its corresponding decimal character code to str1. != ' ' must be single quotation mark.
         str1.append((int) ch );                                    
       else
         str1.append(ch);                                          // 4. Otherwise it will be a whitespace and also add it to str1.
