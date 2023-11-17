@@ -50,6 +50,10 @@
 `[15]AlphabetSoup`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/0a440fef-dd53-49ee-8e8c-28a57f0f714b)
 
+`[16]Bitwise Two`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/23a2caa6-920a-4ed3-864f-b1b70788940d)
+
+
 
 
 
