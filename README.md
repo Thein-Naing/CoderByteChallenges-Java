@@ -53,6 +53,10 @@
 `[16]Bitwise Two`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/23a2caa6-920a-4ed3-864f-b1b70788940d)
 
+`[17]BitwiseOne`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/384b9edc-a6ad-4090-810c-8afaa97f08c8)
+
+
 
 
 
