@@ -56,6 +56,10 @@
 `[17]BitwiseOne`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/384b9edc-a6ad-4090-810c-8afaa97f08c8)
 
+`[18]Array Addition I`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/90013ed1-87d2-45c2-b223-73c55dcc06e7)
+
+
 
 
 
