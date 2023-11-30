@@ -61,6 +61,10 @@
 `[18]Array Addition I`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/90013ed1-87d2-45c2-b223-73c55dcc06e7)
 
+`[19]LetterCapitalize`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/32d1efc2-dd4a-4059-bb5d-5e2d71b2964a)
+
+
 
 
 
