@@ -64,6 +64,10 @@
 `[19]LetterCapitalize`
 ![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/32d1efc2-dd4a-4059-bb5d-5e2d71b2964a)
 
+`[20]First Factorial`
+![image](https://github.com/Thein-Naing/CoderByte_EasyLevel_Java/assets/117463446/5720fdb2-796f-46b8-823f-8c804359d3e8)
+
+
 
 
 
